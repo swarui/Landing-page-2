@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Nexa;
+    src: url(/fonts/Nexa-Heavy.ttf);
+    font-family: Sequel;
+    src: url(/fonts/sequel-sans-heavy-disp.ttf);
+}
+#sm{
+
+    color:rgb(182, 19, 182)
+}
+.btn{
+    color: white;
+    border-radius: 4px;
+    background-color: purple;
+    height: 30px;
+    border: none;
+    font-family:Nexa;
+}
+.btn:hover{
+    background-color: palevioletred;
+}
+h1{
+    font-size: 30px;
+    font-family: Nexa;
+}
+.icons{
+    display: flex;
+    justify-content: calc(10px * 100%);
+}
+nav ul li{
+    list-style: none;
+}
+.icons{
+    margin-top: 10px;
+}
